@@ -21,7 +21,6 @@ while faltas<1 or faltas>60:
     break
 
 nota= (nota1+nota2+nota3)/3
-
 if nota >=6 and faltas <=15:
     print("Aluno aprovado!")
     print("BOLETIM:")
@@ -30,10 +29,12 @@ if nota >=6 and faltas <=15:
 
 if nota >=4 and nota<6 and faltas <=15:
     print("Aluno em recuperação!")
+    print("BOLETIM:")
     print('- Média: {}'.format(nota))
     print('- Faltas: {} '.format(faltas))
 
 if nota <4 or faltas >15:
     print("Aluno reprovado!")
+    print("BOLETIM:")
     print('- Média: {}'.format(nota))
     print('- Faltas: {} '.format(faltas))
